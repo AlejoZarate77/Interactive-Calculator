@@ -10,6 +10,8 @@ import ClearButton from './components/ClearButton.js'
 //Hooks
 import { useState } from 'react';
 //input = value entered by user
+//mathjs library import
+import { evaluate } from 'mathjs'
 
 function App() {
 
@@ -17,6 +19,14 @@ function App() {
 
   const addInput = val => {
     setInput(input + val);
+  };
+
+  const calculateResult = () => {
+    if (input) {
+      setInput(evaluate(input));
+    } else {
+      alert("Please enter values to perform calculations.");
+    }
   };
 
 
@@ -49,13 +59,15 @@ function App() {
           <Button handleClick={addInput}>*</Button>
         </div>
         <div className='row'>
-          <Button handleClick={addInput}>=</Button>
+          <Button handleClick={calculateResult}>=</Button>
           <Button handleClick={addInput}>0</Button>
           <Button handleClick={addInput}>.</Button>
           <Button handleClick={addInput}>/</Button>
         </div>
         <div className='row'>
-          <ClearButton>Clear</ClearButton>
+          <ClearButton handleClick={() => setInput('')}>
+            Clear
+          </ClearButton>
         </div>
       </div>
     </div>

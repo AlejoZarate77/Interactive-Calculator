@@ -8,7 +8,7 @@ function Button(props) {
 
   const isOperator = value => {
     //It is used to know if that string of characters is not a number or a point or an equal sign, then if the three conditions are met we consider it an operator and return true, if not we return false
-    return isNaN(value) && (value != '.') && (value != '=')
+    return isNaN(value) && (value !== '.') && (value !== '=')
   };
 
   return (
