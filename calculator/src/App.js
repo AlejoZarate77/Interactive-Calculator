@@ -3,6 +3,8 @@ import './App.css';
 import Logo from './img/Calculator_30001.png'
 //import button
 import Button from './components/Button.js'
+//import window
+import Window from './components/Window.js'
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           alt='img logo' />
       </div>
       <div className='calculator-container'>
+        <Window />
         <div className='row'>
           <Button>1</Button>
           <Button>2</Button>
