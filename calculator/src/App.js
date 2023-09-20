@@ -5,6 +5,8 @@ import Logo from './img/Calculator_30001.png'
 import Button from './components/Button.js'
 //import window
 import Window from './components/Window.js'
+//import ClearButton
+import ClearButton from './components/ClearButton.js'
 
 function App() {
   return (
@@ -41,7 +43,9 @@ function App() {
           <Button>.</Button>
           <Button>/</Button>
         </div>
-        <div className='row'></div>
+        <div className='row'>
+          <ClearButton>Clear</ClearButton>
+        </div>
       </div>
     </div>
   );
