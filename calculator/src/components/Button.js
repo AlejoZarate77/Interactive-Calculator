@@ -1,4 +1,6 @@
 import React from 'react';
+//import styles
+import '../Style-sheets/Button.css'
 
 function Button(props) {
 //The children prop is a special prop that is passed to components. It is an object that contains the elements that a component wraps.
@@ -10,8 +12,9 @@ function Button(props) {
   };
 
   return (
+    //.trim() --> allows you to remove spaces from the beginning or end of character strings
       <div
-      className={`container-button ${isOperator(props.childre) ? 'operator' : null}`}>
+      className={`container-button ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}>
         {props.children}
       </div>
     )
