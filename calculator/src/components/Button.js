@@ -14,7 +14,8 @@ function Button(props) {
   return (
     //.trim() --> allows you to remove spaces from the beginning or end of character strings
       <div
-      className={`container-button ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}>
+      className={`container-button ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}
+      onClick={() => props.handleClick(props.children)}>
         {props.children}
       </div>
     )
