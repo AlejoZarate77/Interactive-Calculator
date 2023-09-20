@@ -1,0 +1,25 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10px;
+  background-color: #00BFFF;
+  font-family: Lato, sans-serief;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* width = ancho // height = alto*/
+.logo-conteiner {
+  width: 100%;
+  height: 50px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logo {
+  height: 100px;
+}
