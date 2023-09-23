@@ -37,3 +37,46 @@ The calculation logic will be implemented using JavaScript. Click events will be
     <!-- Numeric and operation buttons -->
   </div>
 </div>
+
+# Guide to Deploy an Interactive Calculator in React
+
+This guide will show you how to deploy an interactive calculator already created in React on your local server.
+
+## Step 1: Download the Source Code
+
+1. Make sure you have downloaded the React calculator source code from the repository or source where you have it stored.
+
+2. Place the code in a folder of your choice on your system.
+
+## Step 2: Install Dependencies
+
+1. Open your terminal and navigate to the folder where you have the calculator code.
+
+2. Run the following command to install React dependencies:
+
+    ```bash
+    npm install
+
+## Step 3: Start the Application
+Once the dependencies have been installed successfully, run the following command to start the React application:
+
+
+#Copy code
+
+    npm start
+
+This will start a development server and open your interactive calculator in your default web browser.
+
+## Step 4: Access the Calculator
+Open your web browser (preferably Google Chrome, Firefox or Edge).
+
+In the address bar, enter the following URL:
+
+#Copy code
+
+http://localhost:3000
+
+## Ready!
+Now your interactive calculator in React is deployed and ready to be used on your local server!
+
+Remember that these steps assume that you already have Node.js and npm installed on your system and that you have downloaded the calculator source code in React. Be sure to adjust the details according to your specific needs.
