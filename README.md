@@ -27,17 +27,6 @@ The calculator will be designed with an intuitive and attractive user interface 
 
 The calculation logic will be implemented using JavaScript. Click events will be used to capture user actions and perform necessary calculations. The results will be displayed on the calculator's screen.
 
-```html
-<!-- Example of the HTML structure of the calculator -->
-<div class="calculator">
-  <div class="screen">
-    <!-- Screen to display input and result -->
-  </div>
-  <div class="buttons">
-    <!-- Numeric and operation buttons -->
-  </div>
-</div>
-
 # Guide to Deploy an Interactive Calculator in React
 
 This guide will show you how to deploy an interactive calculator already created in React on your local server.
