@@ -36,7 +36,7 @@ The calculator will have the following features:
 
  * The calculation logic will be implemented using JavaScript. Click events will be used to capture user actions and perform necessary calculations. The results will be displayed on the calculator's screen.
 
-# Guide to Deploy an Interactive Calculator in React
+# Guide to Deploy an Interactive Calculator in React :file_folder:
 
  * This guide will show you how to deploy an interactive calculator already created in React on your local server.
 
@@ -103,7 +103,7 @@ npm start
 http://localhost:3000
 ```
 
-## Ready!
+## Ready! 	:+1:
 Now your interactive calculator in React is deployed and ready to be used on your local server!
 
 Remember that these steps assume that you already have Node.js and npm installed on your system and that you have downloaded the calculator source code in React. Be sure to adjust the details according to your specific needs.
