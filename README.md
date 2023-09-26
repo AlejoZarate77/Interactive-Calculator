@@ -8,6 +8,15 @@ This project involves creating an interactive calculator using HTML, CSS, and Ja
 - CSS3: Used to style and design the calculator.
 - JavaScript: Used to implement the calculation logic and user interaction.
 
+## Versiones :speech_balloon:
+
+This project uses the following versions of the main technologies:
+
+- React: 16.8.0
+- HTML: HTML5
+- CSS: CSS3
+- JavaScript: ECMAScript 6
+
 ## Features :floppy_disk:
 
 The calculator will have the following features:
@@ -52,7 +61,7 @@ Once the dependencies have been installed successfully, run the following comman
 
 #Copy code
 
-    npm start
+npm start
 
 This will start a development server and open your interactive calculator in your default web browser.
 
