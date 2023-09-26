@@ -53,7 +53,7 @@ This guide will show you how to deploy an interactive calculator already created
 2. Run the following command to install React dependencies:
 
     ```bash
-    npm install
+npm install
 
 ## Step 3: Start the Application
 Once the dependencies have been installed successfully, run the following command to start the React application:
