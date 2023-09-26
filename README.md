@@ -52,8 +52,10 @@ This guide will show you how to deploy an interactive calculator already created
 
 2. Run the following command to install React dependencies:
 
-   ```bash
-   npm install
+#Copy code
+```
+npm install
+```
 
 ## Step 3: Start the Application
 Once the dependencies have been installed successfully, run the following command to start the React application:
@@ -61,7 +63,9 @@ Once the dependencies have been installed successfully, run the following comman
 
 #Copy code
 
+```
 npm start
+```
 
 This will start a development server and open your interactive calculator in your default web browser.
 
@@ -72,7 +76,9 @@ In the address bar, enter the following URL:
 
 #Copy code
 
+```
 http://localhost:3000
+```
 
 ## Ready!
 Now your interactive calculator in React is deployed and ready to be used on your local server!
