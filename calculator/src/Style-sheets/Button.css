@@ -1,28 +1,11 @@
 .container-button {
-    height: 83px;
-    display: flex;
-    flex: 1 1;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 38px;
-    background-color: #1b1b32;
-    color: white;
-    border-radius: 25px;
-    border: 2px solid white;
-    margin: 4px;
-    cursor: pointer;
-    user-select: none;
+    @apply flex flex-1 justify-center items-center font-[bold] text-[38px] bg-[#1b1b32] text-[white] cursor-pointer select-none m-1 rounded-[25px] border-2 border-solid border-[white] hover:bg-[#5a01a7];
 }
 
 .container-button:hover {
-    background-color: #5a01a7;
+    @apply bg-[#5a01a7];
 }
 
 .operator {
-    background-color: #00471b;
-}
-
-.operator:hover {
-    background-color: #ff6600;
-}
+    @apply bg-[#00471b] hover:bg-[#ff6600];
+  }
